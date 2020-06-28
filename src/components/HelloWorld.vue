@@ -97,31 +97,32 @@
                         <blockquote class="blockquote">
                             <div class="z-depth-1 p-2 pl-4"> 
                                 <p class="text-left"> 
-                                    <span class="text-primary" v-katex="'\\textrm{Theorem}\\newline'"></span>
-                                    <span v-katex="'\\textrm{Suppose that }'"></span> <span v-katex="'f(x,y)'"></span> <span v-katex="'\\textrm{ and its first and second partial derivatives are continuous in the domain of }'"></span>
-                                    <span v-katex="'f'"></span> <span v-katex="'\\textrm{ that, at the critical points }'"></span> <span v-katex='"(x,y) = (a,b)"'></span> <span v-katex="'\\textrm{ we have }'"></span> <span v-katex:display="'f_x = f_y = 0'"></span>.
+                                    <span class="text-primary" v-katex="'\\textrm{Theorem}\\newline'"></span> 
+                                    Suppose that <span v-katex="' f(x,y) '"></span> and its first and second partial derivatives are continuous in the domain of<span v-katex="' f '"></span>that, at the critical points <span v-katex='" (x,y) = (a,b) "'></span>we have 
+                                    <span v-katex:display="'f_x = f_y = 0'"></span>.
+
+                                    Let  <span v-katex="' D = f_{xx}f_{yy} - f_{xy}^2 '"></span>  at <span v-katex = "' (a,b) '"></span> , then  
                                     <ol type="1">
-                                        <li class="mb-2 pl-2"> <span v-katex="'\\textrm{Let } D = f_{xx}f_{yy} - f_{xy}^2 \\textrm{ at } (a,b) \\textrm{, then}'"></span></li> 
-                                        <li class="mb-2 pl-2"> <span v-katex="'\\textrm{if } D > 0 \\textrm{ and } f_{xx} < 0 \\textrm{ at } (a,b), \\textrm{ f has a local maximum at } (a,b).'"></span></li>
-                                        <li class="mb-2 pl-2"> <span v-katex="'\\textrm{if } D < 0 \\textrm{ at } (a,b), f \\textrm{ has a saddle point at } (a,b).'"></span> </li>   
-                                        <li class="mb-2 pl-2"> <span v-katex="'\\textrm{if } D=0, \\textrm{ the test is inconclusive and } f \\textrm{ may either have a relative extremum or a saddle point at} (a,b)\\textrm{.}'"></span> </li>
-                                        <li class="mb-2 pl-2"> <span v-katex="'\\textrm{if } D > 0 \\textrm{ and } f_{xx} > 0 \\textrm{ at } (a,b), f \\textrm{ has a local minimum at (a,b).}'"></span></li>
-                                        <li class="pl-2"> <span v-katex="'\\textrm{if } D > 0 \\textrm{ and } f_{xx} > 0 \\textrm{ at } (a,b), \\textrm{ f has a local minimum at} (a,b).'"></span> </li> 
+                                        <li class="mb-2 pl-2"> If <span v-katex="' D > 0 '"></span> and <span v-katex="' f_{xx} < 0 '"></span> at <span v-katex="' (a,b) '"></span>, <span v-katex="' f '"></span> has a local maximum at <span v-katex="' (a,b)'"></span>.</li>
+                                        <li class="mb-2 pl-2"> If <span v-katex="' D > 0 '"></span> and <span v-katex="' f_{xx} > 0 '"></span> at <span v-katex="' (a,b) '"></span>,<span v-katex="' f '"></span> has a local minimum at<span v-katex="' (a,b)'"></span>. </li>
+                                        <li class="mb-2 pl-2"> If <span v-katex="' D < 0 '"></span> at <span v-katex="' (a,b)'"></span>, <span v-katex="' f '"></span> has a saddle point at <span v-katex="' (a,b)'"></span>.</li>   
+                                        <li class="mb-2 pl-2"> If <span v-katex="' D=0'"></span>, the test is inconclusive and <span v-katex="' f '"></span>  may either have a relative extremum or a saddle point at<span v-katex="' (a,b)'"></span>. </li>
                                     </ol> 
                                 </p>
                             </div> 
                         </blockquote>
                         <!--/Theorem--> 
                         <P>
-                            <span v-katex="'\\textrm{The expression } D = f_{xx}f_{yy} - f_{xy}^2 \\textrm{ is known as the} \\textbf{ discriminant} \\textrm{ of f}'"></span>
+                            The expression <span v-katex="' D = f_{xx}f_{yy} - f_{xy}^2 '"></span> is known as the <span class="font-weight-bold">discriminant</span> of <span v-katex="' f'"></span>.
                         </P> 
                         <div class="p-2 pl-4 note note-success"> 
                             <p class="text-left">
-                                <span v-katex="'\\bold{Example (1):}\\newline'"></span>
-                                <span v-katex="'\\textrm{Find and classify all the critical points of the function }'"></span> 
+                                <strong> Example (1)</strong><br>
+                                Find and classify all the critical points of the function  
                                 <span v-katex:display="'f(x, y) = x^2 + 4xy + 4x + 2y^2 - 8y + 3'"></span>
-                                <span v-katex="'\\bf Solutions:'"></span>
-                                <span v-katex="'\\textrm{We start by evaluating the derivatives and equating them to zero to find the critical points. This leads to}'"></span>
+                                <strong>Solutions:</strong>
+                                We start by evaluating the derivatives and equating them to zero to find the critical points. This leads to
+                                <span v-katex:display="'\\begin{aligned} f_x &= 2 x + 4 y + 4 &= 0\label{ex1eqa} \\ f_y &= 4 x + 4 y - 8 &= 0\label{ex1eqb}\\end{aligned}'"></span>
                             </p>
                             
                         </div> 
