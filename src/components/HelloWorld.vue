@@ -99,10 +99,10 @@
                             <div class="z-depth-1 p-2 pl-4"> 
                                 <p class="text-left"> 
                                     <span class="text-primary" v-katex="'\\textrm{Theorem}\\newline'"></span> 
-                                    Suppose that <span v-katex="' f(x,y) '"></span> and its first and second partial derivatives are continuous in the domain of<span v-katex="' f '"></span>that, at the critical points <span v-katex='" (x,y) = (a,b) "'></span>we have 
+                                    Suppose that <span v-katex="' f(x,y) '"></span> and its first and second partial derivatives are continuous in the domain of <span v-katex="'f'"></span> that, at the critical points <span v-katex='"(x,y) = (a,b)"'></span> we have 
                                     <span v-katex:display="'f_x = f_y = 0'"></span>.
 
-                                    Let  <span v-katex="' D = f_{xx}f_{yy} - f_{xy}^2 '"></span>  at <span v-katex = "' (a,b) '"></span> , then  
+                                    Let <span v-katex="'D = f_{xx}f_{yy} - f_{xy}^2'"></span> at <span v-katex = "'(a,b)'"></span>, then  
                                     <ol type="1">
                                         <li class="mb-2 pl-2"> If <span v-katex="' D > 0 '"></span> and <span v-katex="' f_{xx} < 0 '"></span> at <span v-katex="' (a,b) '"></span>, <span v-katex="' f '"></span> has a local maximum at <span v-katex="' (a,b)'"></span>.</li>
                                         <li class="mb-2 pl-2"> If <span v-katex="' D > 0 '"></span> and <span v-katex="' f_{xx} > 0 '"></span> at <span v-katex="' (a,b) '"></span>,<span v-katex="' f '"></span> has a local minimum at<span v-katex="' (a,b)'"></span>. </li>
