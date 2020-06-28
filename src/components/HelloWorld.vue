@@ -94,10 +94,10 @@
                         <!--/Headings-->
 
                         <!--Theorem--> 
-                        <h6 class="text-primary text-left font-weight-bold">Theorem</h6>
                         <blockquote class="blockquote">
                             <div class="z-depth-1 p-2 pl-4"> 
-                                <p class="text-left">
+                                <p class="text-left"> 
+                                    <span class="text-primary" v-katex="'\\textrm{Theorem}\\newline'"></span>
                                     <span v-katex="'\\textrm{Suppose that }'"></span> <span v-katex="'f(x,y)'"></span> <span v-katex="'\\textrm{ and its first and second partial derivatives are continuous in the domain of }'"></span>
                                     <span v-katex="'f'"></span> <span v-katex="'\\textrm{ that, at the critical points }'"></span> <span v-katex='"(x,y) = (a,b)"'></span> <span v-katex="'\\textrm{ we have }'"></span> <span v-katex:display="'f_x = f_y = 0'"></span>.
                                     <ol type="1">
@@ -115,6 +115,17 @@
                         <P>
                             <span v-katex="'\\textrm{The expression } D = f_{xx}f_{yy} - f_{xy}^2 \\textrm{ is known as the} \\textbf{ discriminant} \\textrm{ of f}'"></span>
                         </P> 
+                        <div class="p-2 pl-4 note note-success"> 
+                            <p class="text-left">
+                                <span v-katex="'\\bold{Example (1):}\\newline'"></span>
+                                <span v-katex="'\\textrm{Find and classify all the critical points of the function }'"></span> 
+                                <span v-katex:display="'f(x, y) = x^2 + 4xy + 4x + 2y^2 - 8y + 3'"></span>
+                                <span v-katex="'\\bf Solutions:'"></span>
+                                <span v-katex="'\\textrm{We start by evaluating the derivatives and equating them to zero to find the critical points. This leads to}'"></span>
+                            </p>
+                            
+                        </div> 
+
                     </div>
                     <!--/Classifying Critical Points--> 
                 </mdb-col>
