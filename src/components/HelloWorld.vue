@@ -114,7 +114,7 @@
                     </div>
                     <p>The expression <span v-katex="'D=f_{xx}f_{yy}-f^{2}_{xy}'"></span> is known as the <span class="h6"> discriminant</span> of <span v-katex="'f'"></span>.</p>
                     <h5 class="h5 red-text">Maximising profit given the revenue and cost</h5>
-                    <div class="note note-success z-depth-2 bg2 p-3 m-4 text-left">
+                    <div class="example note z-depth-2 bg2 p-3 m-4 text-left">
                         <h6 class="h6">Example 1</h6>
                         <p>
                             The total weekly revenue that a company realises in producing and selling its products is given by: 
