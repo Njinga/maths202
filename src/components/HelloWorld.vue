@@ -84,6 +84,7 @@
             <mdb-row>
                 <!-- Choose appropriate mdb-col  -->
                 <mdb-col>
+                    
                     <!--Classifying Critical Points-->
                     <div>
                         <!--Headings-->
@@ -139,6 +140,7 @@
                             Since <span v-katex="' D < 0'"></span>, we conclude that the function has a saddle point at<span v-katex:display="' (6,-4) '"></span> 
                         </div> 
                         <!--/Example 1-->
+                        
                         <!--Example 2 -->
                         <div class="p-2 pl-4 mb-2 note note-primary text-left"> 
                             <strong> Example (2)</strong><br>
@@ -146,8 +148,8 @@
                             <div v-katex:display="'f(x, y) = x^3 - 12 x y + 8 y^3'"></div>
                             <span v-katex="'\\textbf{Solutions:}'"></span>
                             We start by evaluating the derivatives and equating them to zero to find the critical points. This leads to
-                            <div v-katex:display="'\\begin{aligned} \\tag{1} f_x = 3x^2 - 12 y = 3(x^2 - 4y) = 0  \\end{aligned}'"></div>
-                            <div v-katex:display="'\\begin{aligned} \\tag{2} f_y = 24y^2 - 12 x = 12(2y^2 - x) = 0  \\end{aligned}'"></div>
+                            <div v-katex:display="'\\begin{aligned} f_x = 3x^2 - 12 y = 3(x^2 - 4y) = 0  \\end{aligned}'"></div>
+                            <div v-katex:display="'\\begin{aligned} f_y = 24y^2 - 12 x = 12(2y^2 - x) = 0  \\end{aligned}'"></div>
 
                             Thus we must solve <span v-katex="' x^2 = 4y '"></span> and <span v-katex="' x = 2y^2 '"></span>.
                             Sustituting <span v-katex="' x = 2y^2 '"></span> in the first equation gives 
@@ -179,14 +181,11 @@
                             Thus <span v-katex="'D = f_{xx} f_{yy} - f_{xy}^2 = (12)(48) -(-12)^2 = 432 > 0.'"></span>
                             <br>
                              Since <span v-katex="' D > 0 '"></span>and <span v-katex="'f_{xx} > 0'"></span> we conclude that the function has a 
-                             local minimum at <span v-katex="'(2,1)'"></span>. The minimum of the function is <div v-katex:display="'f(2, 1) = (2)^3 - 12(2)(1) + 8(1)^3 = -8'"></div>
-
-
-
-
+                             local minimum at <span v-katex="'(2,1)'"></span>. The minimum of the function is <div v-katex:display="'f(2, 1) = (2)^3 - 12(2)(1) + 8(1)^3 = -8'"></div> 
 
                         </div> 
                         <!--/Example 2-->
+
                         <!--Example 3-->
                         <div class="p-2 pl-4 mb-2 note note-primary text-left"> 
                             <strong> Example (3)</strong><br>
@@ -239,21 +238,12 @@
                             At <span v-katex="'(0,2)'"></span>: <span v-katex="'f_{xx} = 6(0) + 6  = 6'"></span>, <span v-katex="'f_{yy} = 6(2) - 6   = 6, f_{xy} = 0\\newline'"></span>
                             Thus <span v-katex="'D = f_{xx} f_{yy} - f_{xy}^2 = (6)(6) - 0^2 = 36 > 0.'"></span>
                             Since <span v-katex="'D > 0'"></span> and <span v-katex="'f_{xx} > 0'"></span> we conclude that at <span v-katex="'(0,2)'"></span> the function has a local minimum. The minimum of the function is 
-                            <div v-katex:display="'f(0, 2) = (0)^3 + 3 (0)^2 + (2)^3 - 3 (2)^2 - 8 = -12'"></div>
-
-
-
-
-
-
-
-                        </div>
-             
+                            <div v-katex:display="'f(0, 2) = (0)^3 + 3 (0)^2 + (2)^3 - 3 (2)^2 - 8 = -12'"></div> 
+                        </div> 
                         <!--Example 3-->
 
                     </div>
                     <!--/Classifying Critical Points--> 
-                                <!--<div v-katex:display="'\\begin{alignedat}{2} f_x &= 2 x + 4 y + 4 &= 0 &\\text{ (1)} \\newline f_y &= 4 x + 4 y - 8 &= 0 &\\text{ (2)} \\end{alignedat}'"> </div>-->
                 </mdb-col>
             </mdb-row>
         </section>
