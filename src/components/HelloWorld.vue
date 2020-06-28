@@ -122,13 +122,18 @@
                                 <span v-katex:display="'f(x, y) = x^2 + 4xy + 4x + 2y^2 - 8y + 3'"></span>
                                 <strong>Solutions:</strong>
                                 We start by evaluating the derivatives and equating them to zero to find the critical points. This leads to
-                                <span v-katex:display="'\\begin{aligned} f_x &= 2 x + 4 y + 4 &= 0\label{ex1eqa} \\ f_y &= 4 x + 4 y - 8 &= 0\label{ex1eqb}\\end{aligned}'"></span>
+                                <span v-katex="' '"></span><br>
+                                <span v-katex:display="' '"></span>
+                                <span v-katex:display="'f_y = 4x + 4y - 8 = 0 \\text{   (1)}'"></span><br>
+                                <span v-katex:display="'f_x = 2x + 4y + 4 = 0 \\text{   (2)}'"></span><br>
                             </p>
+                            <div v-katex="'\\begin{alignedat}{2} 10&x+ &3&y = 2 \\newline 3&x+&13&y = 4 \\end{alignedat}'"></div>
                             
                         </div> 
 
                     </div>
                     <!--/Classifying Critical Points--> 
+                                <!--<div v-katex:display="'\\begin{alignedat}{2} f_x &= 2 x + 4 y + 4 &= 0 &\\text{ (1)} \\newline f_y &= 4 x + 4 y - 8 &= 0 &\\text{ (2)} \\end{alignedat}'"> </div>-->
                 </mdb-col>
             </mdb-row>
         </section>
