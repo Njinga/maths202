@@ -12,9 +12,6 @@ import router from './router'
 import store from './store'
 import Notify from 'mdbvue/lib/components/Notify'
 
-
-
-import Notify from 'mdbvue/lib/components/Notify'
  
 
 import VueKatex from 'vue-katex';
@@ -40,7 +37,6 @@ Vue.use(katex)
 
 
 Vue.config.productionTip = false
-Vue.use(Notify)
 Vue.use(VueKatex, {
   globalOptions: {
    
