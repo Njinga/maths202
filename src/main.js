@@ -10,6 +10,9 @@ import 'katex/dist/katex.min.css'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import Notify from 'mdbvue/lib/components/Notify'
+
+
 
 import Notify from 'mdbvue/lib/components/Notify'
  
@@ -35,8 +38,14 @@ Vue.use(VueKatex, {
 
 Vue.use(katex)
 
-import Notify from 'mdbvue/lib/components/Notify'
+
+Vue.config.productionTip = false
 Vue.use(Notify)
+Vue.use(VueKatex, {
+  globalOptions: {
+   
+  }
+});
 
 new Vue({
   router,
